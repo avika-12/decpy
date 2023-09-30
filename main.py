@@ -16,7 +16,7 @@ def chat(query):
     print(chatbot)
 
     openai.api_key = apikey
-    chatbot+="Helper:{ptompt}\n Jarvis:";
+    chatbot+="Helper:{ptompt}\n decpy:";
 
     response = openai.Completion.create(
         model="text-davinci-003",
